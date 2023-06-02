@@ -18,7 +18,7 @@ class Filehandler:
         project_data = pd.read_excel(self.file_path)
         
         project50 = project_data[:50]
-        project50_excel = project50.to_excel("halfData.xlsx", index = False)
+        project50_excel = project50.to_excel("dataFiles/halfData.xlsx", index = False)
         return project50_excel 
         
          
